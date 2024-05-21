@@ -1,0 +1,96 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.16.0
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Fri May 17 14:08:52 2024"
+  rime_version: 1.11.2
+patch:
+  app_options:
+    totalcmd64.exe: { ascii_mode: true }
+    cmd.exe: { ascii_mode: true }
+    xshell.exe: { ascii_mode: true }
+    xshellcore.exe: { ascii_mode: true }
+    code.exe: { ascii_mode: true }
+    chrome.exe: { ascii_mode: true }
+    unity.exe: { ascii_mode: true }
+  style:
+    color_scheme: "Lost Temple" # 应用的配色方案
+    font_face: "霞鹜文楷等宽" # 应用的字体
+    font_point: 17 # 字号大小
+    horizontal: false # 候选栏横排显示
+    inline_preedit: false # 单行模式，预输入字符显示在光标位置
+    display_tray_icon: false # 显示托盘图标，会重复的
+    layout:
+      border_width: 2 # 边框宽度
+      margin_x: 10 # 候选字左右边距
+      margin_y: 10 # 候选字上下边距
+      candidate_spacing: 10 # 候选字间隔
+      spacing: 8 # 打字栏与候选栏的间距
+      hilite_spacing: 3 # 序号和候选字之间的间隔
+      round_corner: 10 # 候选字背景色块圆角幅度
+      hilite_padding: 4 # 候选字背景色色块高度和打字栏未选择字背景色块高度
+  preset_color_schemes: # 配色方案
+    mytheme:
+      name: "myscheme"
+      author: "Anchor"
+      text_color: 0x969483 # 打字栏除正在选择字外的字 字体颜色
+      back_color: 0x0c0c0c # 打字栏与候选栏 背景色
+      border_color: 0xffccff # 边框颜色
+      #label_color: 0xffffff  # 候选栏 序号颜色
+      candidate_text_color: 0x000000 # 候选栏 未候选字颜色
+      comment_text_color: 0xd28b26 # 候选栏 补充说明 字体颜色
+      hilited_text_color: 0x394bdd # 打字栏 正在选择的字 字体颜色
+      hilited_back_color: 0xf2f2f2 # 打字栏 正在选择的字 背景色
+      hilited_candidate_text_color: 0xff2288 # 候选栏 候选字颜色
+      hilited_candidate_back_color: 0xffccff # 候选栏 候选字背景色
+
+    lost_temple:
+      name: "Lost Temple"
+      author: 佛振 <chen.sst@gmail.com>, based on ir_black
+      text_color: 0xe8f3f6 # 打字栏除正在选择字外的字 字体颜色
+      back_color: 0x444444 # 打字栏与候选栏 背景色
+      border_color: 0x444444 # 边框颜色
+      hilited_text_color: 0x82e6ca # 打字栏 正在选择的字 字体颜色
+      hilited_back_color: 0x222222 # 打字栏 正在选择的字 背景色
+      hilited_candidate_text_color: 0x000000 # 候选栏 候选字颜色
+      hilited_candidate_back_color: 0x82e6ca # 候选栏 候选字背景色
+
+    dark_temple:
+      name: "Dark Temple"
+      author: 佛振 <chen.sst@gmail.com>, based on ir_black
+      text_color: 0x92f6da
+      candidate_text_color: 0xd8e3e6
+      back_color: 0x222222
+      border_color: 0x222222
+      hilited_text_color: 0xffcf9a
+      hilited_back_color: 0x222222
+      hilited_candidate_text_color: 0x92f6da
+      hilited_candidate_back_color: 0x333333
+      comment_text_color: 0x606cff
+      hilited_mark_color: 0xffffcf6a
+
+    steam:
+      name: "Steam"
+      author: "Patricivs <ipatrickmac@me.com>"
+      text_color: 0xcd8c52
+      back_color: 0x141617
+      border_color: 0x353638
+      label_color: 0xffffff
+      hilited_text_color: 0xc9cfd1
+      hilited_back_color: 0x141617
+      candidate_text_color: 0xffffff
+      comment_text_color: 0xa7a7a9
+      hilited_candidate_text_color: 0xffffff
+      hilited_comment_text_color: 0xa7a7a9
+      hilited_candidate_back_color: 0x594231
+
+    solarized_rock:
+      name: "Solarized Rock"
+      author: "Aben <tntaben@gmail.com>, based on Ethan Schoonover's Solarized color scheme"
+      back_color: 0x362b00
+      border_color: 0x362b00
+      text_color: 0x009985
+      hilited_text_color: 0x98a12a
+      candidate_text_color: 0x969483
+      hilited_candidate_text_color: 0xffffff
+      hilited_candidate_back_color: 0x8236d3
