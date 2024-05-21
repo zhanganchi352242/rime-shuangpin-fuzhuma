@@ -9,6 +9,7 @@ switches_engine:
     - name: emoji
       states: [ 💀, 😄 ]
     - name: chaifen
+      reset: 1
       states: [ 不拆, 扌斥 ]
     - name: mars
       reset: 0
